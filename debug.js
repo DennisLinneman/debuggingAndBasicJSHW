@@ -6,7 +6,8 @@ let b = 1;
 a++;
 // Only change code below this line
 let sumAB = a + b;
-console.log(a);
+console.log(sumAB);
+
 
 
 //2.Understanding the Differences between the freeCodeCamp and Browser Console
@@ -19,6 +20,7 @@ let output = "Get this to log once in the freeCodeCamp console and twice in the 
 // Run the tests to see the difference between the two consoles.
 
 // Now, add console.clear() before your console.log() to clear the browser console, and pass the tests.
+console.clear();
 console.log(output);
 
 
@@ -76,7 +78,7 @@ console.log(`Net working capital is: ${netWorkingCapital}`);
 //Fix the two pair errors in the code.
 // setup
 let myArray = [1, 2, 3];
-  let arraySum = myArray.reduce((previous, current =>  previous + current));
+  let arraySum = myArray.reduce((previous, current) => previous + current);
   console.log(`Sum of array values is: ${arraySum}`);
   
 
@@ -125,7 +127,7 @@ let x = 7;
 let y = 9;
 let result = "to come";
 
-if(x === y) {
+if(x == y) {
 } else {
   result = "Not equal!";
 }
